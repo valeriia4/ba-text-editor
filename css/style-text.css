@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #464f54;
+}
+.wrapper{
+	max-width: 1060px;
+	margin: 0 auto;
+	background-color: #FFF;
+	padding: 185px, 115px, 30px, 130px;
+}
+.header-info,
+.header-info a{
+	font-family: proxima_nova, Arial, sans-serif;
+	color: #b4b4b4;
+	font-size: 20px;
+	line-height: auto;
+	text-decoration: none;
+}
+.article-title{
+	font-size: 78px;
+	margin: .57em 0 0 ;
+	text-transform: uppercase;
+	font-family: 'FuturaPT', Arial, sans-serif;
+}
+.article-desc{
+	font-family: Georgia, serif;
+	font-size: 30px;
+	line-height: 2em;
+	color: #8f8f8f;
+}
+.header{
+	margin-bottom: 25px;
+}
+.article-content p{
+	font-size: 26px;
+	line-height: 1.5em;
+	text-align: justify;
+}

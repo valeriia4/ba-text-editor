@@ -3,6 +3,8 @@
 }
 body{
 	background-color: #464f54;
+	position: relative;
+	padding-top: 150px;
 }
 .wrapper{
 	max-width: 1060px;
@@ -15,14 +17,17 @@ body{
 	font-family: proxima_nova, Arial, sans-serif;
 	color: #b4b4b4;
 	font-size: 20px;
-	line-height: auto;
 	text-decoration: none;
 }
 .article-title{
+	margin: .57em 0 0;
 	font-size: 78px;
-	margin: .57em 0 0 ;
 	text-transform: uppercase;
 	font-family: 'FuturaPT', Arial, sans-serif;
+}
+.article-autor{
+	text-transform: uppercase;
+	letter-spacing: 0.219em;
 }
 .article-desc{
 	font-family: Georgia, serif;
@@ -36,5 +41,92 @@ body{
 .article-content p{
 	font-size: 26px;
 	line-height: 1.5em;
-	text-align: justify;
+}
+.form-editor{
+	position: absolute;
+	right: 0;
+	max-width: 878px;
+	width: 80%;
+}
+.form-title{
+	position: relative;
+	height: 188px;
+	background-color: #181818;
+	padding: 50px 0 50px 60px;
+}
+.form-input{
+	display: block;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #303030;
+	font-size: 48px;
+	font-family: 'Playfair Display', serif;
+	color: #fefefe;
+	line-height: 1.9583;
+}
+.form-label{
+	position: absolute;
+	left: 60px;
+	top: 50px;
+	color: #767676;
+	text-transform: uppercase;
+}
+.form-bottom{
+	height: 78px;
+	background-color: #f9bf2d;
+	padding: 0 43px;
+	display: flex;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: calc(100% - 65px);
+	margin-left: 65px;
+}
+.form-text-decoration{
+width: 33px;
+height: 33px;
+background-color: transparent;
+border: none;
+opacity: 0.5;
+color: #FFF;
+padding: 0;
+cursor: pointer;
+font-size: 22px;
+font-family: sans-serif;
+}
+.form-text-decoration + .form-text-decoration{
+	margin-left: 32px;
+}
+
+.form-text-decoration:hover,
+.form-text-decoration:focus{
+	opacity:1;
+}
+.text-decoration-color{
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.text-decoration-uppercase small{
+	font-size: 60%;
+}
+.text-decoration-bold{
+	font-weight: bold;
+}
+.text-decoration-italic{
+	font-size: italic;
+	text-transform: uppercase;
+}
+.text-decoration-underline{
+	text-decoration: underline;
+}
+.form-text-decoration span{
+	display: block;
+	height: 3px;
+	background-color: #FFF;
+	margin-bottom: 3px;
+}
+.form-text-decoration span:last-child{
+	margin-bottom: 0;
+}
+.text-decoration-left span:nth-child(even){
+	width: 20px;
 }
